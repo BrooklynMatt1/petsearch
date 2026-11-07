@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cavapoo Adoption Corridor Dashboard</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f8fafc; color: #1e293b; padding: 24px; margin: 0; }
+    .container { max-width: 900px; margin: auto; }
+    h1 { font-size: 24px; margin-bottom: 8px; }
+    p.subtitle { color: #64748b; margin-top: 0; margin-bottom: 24px; }
+    .section-title { font-size: 18px; margin: 24px 0 12px 0; border-bottom: 2px solid #e2e8f0; padding-bottom: 6px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+    .card { background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+    .card h3 { margin: 0 0 6px 0; font-size: 16px; }
+    .card p { margin: 0 0 12px 0; font-size: 13px; color: #64748b; }
+    .btn-row { display: flex; gap: 8px; flex-wrap: wrap; }
+    .btn { text-decoration: none; font-size: 13px; font-weight: 500; padding: 6px 12px; border-radius: 4px; display: inline-block; }
+    .btn-pf { background: #2563eb; color: #fff; }
+    .btn-aap { background: #059669; color: #fff; }
+    .btn-rg { background: #d97706; color: #fff; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🐾 Cavapoo Adoption Route Monitor</h1>
+    <p class="subtitle">Quick-search hubs along I-80 & I-70 between Blauvelt, NY and Wooster / Columbus, OH</p>
+
+    <!-- Priority Hubs -->
+    <div class="section-title">Primary Destinations</div>
+    <div class="grid">
+      <div class="card">
+        <h3>Blauvelt, NY</h3>
+        <p>Radius: 18 Miles • Zip: 10913</p>
+        <div class="btn-row">
+          <a class="btn btn-pf" target="_blank" href="https://www.petfinder.com/search/dogs-for-adoption/us/ny/10913/?breed%5B0%5D=Cavapoo&breed%5B1%5D=Cavalier+King+Charles+Spaniel&distance=18">Petfinder</a>
+          <a class="btn btn-aap" target="_blank" href="https://www.adoptapet.com/pet-search?geo_range=18&postal_code=10913&species=dog&breed_id=1018">Adopt-a-Pet</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Wooster, OH</h3>
+        <p>Radius: 50 Miles • Zip: 44691</p>
+        <div class="btn-row">
+          <a class="btn btn-pf" target="_blank" href="https://www.petfinder.com/search/dogs-for-adoption/us/oh/44691/?breed%5B0%5D=Cavapoo&breed%5B1%5D=Cavalier+King+Charles+Spaniel&distance=50">Petfinder</a>
+          <a class="btn btn-aap" target="_blank" href="https://www.adoptapet.com/pet-search?geo_range=50&postal_code=44691&species=dog&breed_id=1018">Adopt-a-Pet</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Columbus, OH</h3>
+        <p>Radius: 30 Miles • Zip: 43215</p>
+        <div class="btn-row">
+          <a class="btn btn-pf" target="_blank" href="https://www.petfinder.com/search/dogs-for-adoption/us/oh/43215/?breed%5B0%5D=Cavapoo&breed%5B1%5D=Cavalier+King+Charles+Spaniel&distance=30">Petfinder</a>
+          <a class="btn btn-aap" target="_blank" href="https://www.adoptapet.com/pet-search?geo_range=30&postal_code=43215&species=dog&breed_id=1018">Adopt-a-Pet</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- I-80 Route Hubs -->
+    <div class="section-title">I-80 Corridor Segments</div>
+    <div class="grid">
+      <div class="card">
+        <h3>Stroudsburg / Poconos, PA</h3>
+        <p>Radius: 35 Miles • Zip: 18360</p>
+        <div class="btn-row">
+          <a class="btn btn-pf" target="_blank" href="https://www.petfinder.com/search/dogs-for-adoption/us/pa/18360/?breed%5B0%5D=Cavapoo&distance=35">Petfinder</a>
+          <a class="btn btn-aap" target="_blank" href="https://www.adoptapet.com/pet-search?geo_range=35&postal_code=18360&species=dog">Adopt-a-Pet</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>State College, PA</h3>
+        <p>Radius: 40 Miles • Zip: 16801</p>
+        <div class="btn-row">
+          <a class="btn btn-pf" target="_blank" href="https://www.petfinder.com/search/dogs-for-adoption/us/pa/16801/?breed%5B0%5D=Cavapoo&distance=40">Petfinder</a>
+          <a class="btn btn-aap" target="_blank" href="https://www.adoptapet.com/pet-search?geo_range=40&postal_code=16801&species=dog">Adopt-a-Pet</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Sharon, PA / Youngstown, OH</h3>
+        <p>Radius: 35 Miles • Zip: 16146</p>
+        <div class="btn-row">
+          <a class="btn btn-pf" target="_blank" href="https://www.petfinder.com/search/dogs-for-adoption/us/pa/16146/?breed%5B0%5D=Cavapoo&distance=35">Petfinder</a>
+          <a class="btn btn-aap" target="_blank" href="https://www.adoptapet.com/pet-search?geo_range=35&postal_code=16146&species=dog">Adopt-a-Pet</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- I-70 Route Hubs -->
+    <div class="section-title">I-70 Corridor Segments</div>
+    <div class="grid">
+      <div class="card">
+        <h3>Breezewood / Bedford, PA</h3>
+        <p>Radius: 35 Miles • Zip: 15522</p>
+        <div class="btn-row">
+          <a class="btn btn-pf" target="_blank" href="https://www.petfinder.com/search/dogs-for-adoption/us/pa/15522/?breed%5B0%5D=Cavapoo&distance=35">Petfinder</a>
+          <a class="btn btn-aap" target="_blank" href="https://www.adoptapet.com/pet-search?geo_range=35&postal_code=15522&species=dog">Adopt-a-Pet</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Pittsburgh, PA Metro</h3>
+        <p>Radius: 35 Miles • Zip: 15222</p>
+        <div class="btn-row">
+          <a class="btn btn-pf" target="_blank" href="https://www.petfinder.com/search/dogs-for-adoption/us/pa/15222/?breed%5B0%5D=Cavapoo&distance=35">Petfinder</a>
+          <a class="btn btn-aap" target="_blank" href="https://www.adoptapet.com/pet-search?geo_range=35&postal_code=15222&species=dog">Adopt-a-Pet</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Wheeling, WV / Cambridge, OH</h3>
+        <p>Radius: 35 Miles • Zip: 26003</p>
+        <div class="btn-row">
+          <a class="btn btn-pf" target="_blank" href="https://www.petfinder.com/search/dogs-for-adoption/us/wv/26003/?breed%5B0%5D=Cavapoo&distance=35">Petfinder</a>
+          <a class="btn btn-aap" target="_blank" href="https://www.adoptapet.com/pet-search?geo_range=35&postal_code=26003&species=dog">Adopt-a-Pet</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
